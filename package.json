@@ -1,0 +1,21 @@
+{
+  "name": "qa_guru_bughunter_ui-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "allureGenerate": "allure generate --clean",
+    "allureOpen": "allure open",
+    "api": "npx playwright test --grep @API",
+    "debug": "npx playwright test --ui",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.49.0",
+    "allure-playwright": "^3.0.6",
+    "playwright": "^1.49.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ui-testing-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open allure-report"
+  },
+  "keywords": [],
+  "author": "Valeria Spektor",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "allure-playwright": "^3.0.7"
+  }
+}

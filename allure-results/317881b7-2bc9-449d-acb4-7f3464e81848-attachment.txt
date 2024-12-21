@@ -1,0 +1,3 @@
+Opening Product page: white-underground-tshirt
+Selecting currency: EUR
+Verifying currency bug...
